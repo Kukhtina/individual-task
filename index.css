@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import "styles/variables.css";
+@import "styles/header.css";
+@import "styles/about.css";
+@import "styles/tickets.css";
+@import "styles/video.css";
+@import "styles/footer.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 110px 0 0;
+}
+
+.anchor-target {
+    position: absolute;
+    visibility: hidden;
+    top: -110px;
+}

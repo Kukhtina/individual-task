@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4d2d2;
+    padding: 0 var(--common-side-padding);
+    position: relative;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__input-label {
+    margin: 0 0 5px 5px;
+    font-size: 20px;
+}
+
+.footer__input {
+    width: 350px;
+    height: 40px;
+}
+
+.footer__input-send {
+    width: 60px;
+    background-color: #6b7c8b;
+    height: 40px;
+    color: #ffffff;
+}
+
+.footer__input-send:hover {
+    background-color: #e3e322;
+    color: #000000;
+}
+
+.footer__input:hover {
+    box-shadow: 0 3px 14px 3px #e3e322;
+}
+
+.footer-contactsList {
+    list-style: none;
+}
+
+.footer__contactsList-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer__contactsList-item a img {
+    margin-right: 5px;
+}

@@ -1,0 +1,7 @@
+:root {
+    --common-side-padding: 60px;
+    --black: #000000;
+    --light-gray: rgb(237, 238, 239);
+    --alpha-white: rgba(255, 255, 255, 0.6);
+    --alpha-black: rgba(0, 0, 0, 0.6);
+}

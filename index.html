@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoga Studio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="main">
+        <header id="header" class="header">
+            <span class="header__logo">Yoga Studio</span>
+            <nav class="header__nav">
+                <a href="#about-anchor-target" class="header__nav-item">ABOUT YOGA</a>
+                <a href="#tickets-anchor-target" class="header__nav-item">SEASON TICKETS</a>
+                <a href="#contacts-anchor-target" class="header__nav-item">CONTACTS</a>
+            </nav>
+        </header>
+        <section class="about" id="about">
+            <span class="anchor-target" id="about-anchor-target"></span>
+            <p class="about-article">
+                Yoga is a mind and body practice. Various styles of yoga combine physical postures, breathing
+                techniques, and meditation or relaxation.
+                <br>
+                A regular yoga practice can promote Trusted Source endurance, strength, calmness, flexibility, and
+                well-being.
+                <br>
+                Yoga is now a popular form of exercise around the world. According to a 2017 national survey Trusted
+                Source, one in seven adults in the United States practiced yoga in the past 12 months.
+            </p>
+            <div class="about__typeList-wrapper">
+                <ul class="about-typeList">
+                    <li>
+                        <div class="about__typeList-item"><img class="item-img" src="images/yoga-hatha.svg"
+                                                                   alt=""><span class="item-text">Hatha: improving sleep, reducing stress, and enhancing mindfulness.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about__typeList-item">
+                            <img class="item-img" src="images/yoga-vinyasa.svg" alt=""><span class="item-text">Vinyasa: general toning, strengthening, lengthening and aligning of the body.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about__typeList-item">
+                            <img class="item-img" src="images/yoga-ashtanga.svg" alt=""><span class="item-text">Ashtanga: building strength, purifying the nervous system, and calming the mind.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="tickets" id="tickets">
+            <span class="anchor-target" id="tickets-anchor-target"></span>
+            <div class="tickets-item">
+                <h4 class="tickets__item-title">1 Month</h4>
+                <p class="tickets__item-prise">200$</p>
+                <p class="tickets__item-description">Classes twice a week, for 1.5 hours. First class free.</p>
+                <button class="ticket__item-button" type="button">SELECT</button>
+            </div>
+            <div class="tickets-item">
+                <h4 class="tickets__item-title">3 Month</h4>
+                <p class="tickets__item-prise">500$</p>
+                <p class="tickets__item-description">Classes twice a week, for 1.5 hours. 3 classes for free.</p>
+                <button class="ticket__item-button" type="button">SELECT</button>
+            </div>
+            <div class="tickets-item">
+                <h4 class="tickets__item-title">6 Month</h4>
+                <p class="tickets__item-prise">900$</p>
+                <p class="tickets__item-description">Classes twice a week, for 1.5 hours. 6 classes for free.</p>
+                <button class="ticket__item-button" type="button">SELECT</button>
+            </div>
+        </section>
+        <section class="video">
+            <iframe width="1264" height="496" src="https://www.youtube.com/embed/Eml2xnoLpYE"
+                    title="Full Body Yoga for Strength & Flexibility | 25 Minute At Home Mobility Routine"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </section>
+        <footer class="footer">
+            <span class="anchor-target" id="contacts-anchor-target"></span>
+            <div class="footer__form">
+                <div>
+                    <label for="contact-mail" class="footer__input-label">Contact US: </label>
+                    <div>
+                        <input id="contact-mail" class="footer__input" type="email"  placeholder="Enter your email">
+                        <button class="footer__input-send" type="button">SENT</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <ul class="footer-contactsList">
+                    <li class="footer__contactsList-item">
+                        <a><img class="contact__icon" src="./images/phone.svg" alt="phone">212-456-7890</a>
+                    </li>
+                    <li class="footer__contactsList-item">
+                        <a><img class="contact__icon" src="./images/mail.svg" alt="email">YogaStudio@mail.com</a>
+                    </li>
+                    <li class="footer__contactsList-item">
+                        <a><img class="contact__icon" src="./images/twitter.svg" alt="">YogaStudio</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
+
