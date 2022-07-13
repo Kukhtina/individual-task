@@ -5,3 +5,7 @@
     padding: 50px var(--common-side-padding);
     background: #9ea5ac;
 }
+
+.video iframe {
+    border: none;
+}
